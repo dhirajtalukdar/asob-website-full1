@@ -1,21 +1,21 @@
 {
-  "name": "asob-website-full",
+  "name": "asob-website",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "next": "14.1.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.17",
-    "postcss": "^8.4.31",
-    "tailwindcss": "^3.4.1"
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.0",
+    "typescript": "^4.5.4"
   }
 }
